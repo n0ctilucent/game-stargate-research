@@ -1,36 +1,45 @@
+import os
 import pandas as pd
 from datetime import datetime
-import vertexai
-from vertexai.generative_models import GenerativeModel
+from google import genai
 
 class VertexBridge:
-    def __init__(self, project_id, location="us-central1"):
-        # Initialize the Google Cloud Vertex AI SDK
-        vertexai.init(project=project_id, location=location)
-        self.model = GenerativeModel("gemini-1.5-pro")
+    def __init__(self, project_id=None, location="us-central1", model_name="gemini-1.5-flash-002"):
+        # Pivot to the unified GenAI SDK to clear the June 2026 Deprecation Warning.
+        # This will automatically pick up the GEMINI_API_KEY from your .envrc 
+        # as specified in the Emerald Mirror deployment checklist.
+        self.client = genai.Client()
+        self.model_name = model_name
         self.registry_path = "registry.parquet"
+        self.monthly_budget_calls = 150
 
-    def get_monthly_usage(self):
-        """Calculates current monthly spend from the registry."""
+    def _check_budget(self):
+        """Audit the Pandas registry for current month API usage."""
+        if not os.path.exists(self.registry_path):
+            return True
         df = pd.read_parquet(self.registry_path)
-        # Filter for current month and count Vertex-enhanced operations
+        if df.empty:
+            return True
         df['last_sync'] = pd.to_datetime(df['last_sync'])
-        usage = df[df['last_sync'].dt.month == datetime.now().month].shape[0]
-        return usage
+        current_month = df[df['last_sync'].dt.month == datetime.now().month]
+        usage = current_month[current_month['vertex_enhanced'] == True].shape[0]
+        return usage < self.monthly_budget_calls
 
     def enhance_voxels(self, primitive_metadata, style_tag):
-        """
-        Sends the 'Foundation' data to Vertex AI for 'Emerald Mirror' greebling.
-        """
-        if self.get_monthly_usage() > 100:
-            return "BUDGET_EXCEEDED: Falling back to local Llama-3 logic."
+        """Sends local voxel metadata + vision classification to the AI."""
+        if not self._check_budget():
+            return "BUDGET_EXCEEDED: Falling back to local Llama-3 reasoning."
 
         prompt = f"""
-        System: Act as an architect for the Bitsmasher Minecraft Cluster.
-        Context: The Edge-T node detected a '{style_tag}' vibe.
-        Task: Enhance this primitive building: {primitive_metadata}.
-        Output: Return a JSON delta of block mutations for the Jetson cluster to process.
+        Act as the Lead Architect for the Bitsmasher Minecraft Cluster.
+        We have a primitive foundation: {primitive_metadata}
+        The Edge-T vision sensor reports the build context is: {style_tag}
+        Task: Provide an 'Emerald Mirror' greebling delta in JSON format.
+        Focus on depth, lighting, and material contrast.
         """
         
-        response = self.model.generate_content(prompt)
+        response = self.client.models.generate_content(
+            model=self.model_name,
+            contents=prompt
+        )
         return response.text

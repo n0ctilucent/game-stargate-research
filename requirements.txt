@@ -1,2 +1,4 @@
 pandas
 pyarrow
+networkx
+google-cloud-aiplatform

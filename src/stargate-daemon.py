@@ -7,8 +7,8 @@ import sys
 # Add the project root to sys.path for module imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.stargate.telemetry_listener import TelemetryListener
-from src.utils.config_utils import setup_logging
+from telemetry_listener import TelemetryListener
+from utils.config_utils import setup_logging
 
 # Configure Logging
 logger = setup_logging("stargate-daemon")

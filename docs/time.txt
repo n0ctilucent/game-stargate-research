@@ -1,0 +1,43 @@
+🛠️ Updated bitsmasher.net Design Documentation (Time Synchronization)
+1. Distributed Node Topology
+Time Source (Authority): time.lab.bitsmasher.net
+
+Implementation: ntpsec (NTP Security Project).
+
+Methodology: Stratum 1 local authority utilizing a secure, hardened NTP implementation.
+
+Sync Mode: Broadcast Client. Nodes are configured to listen for time broadcasts on the local subnet to minimize polling overhead and maintain sub-millisecond alignment across the 10.10.8.0/21 infrastructure.
+
+2. Operational Protocols
+Sync & Telemetry Integrity
+Daemon Requirements: All nodes must run the ntpsec service.
+
+Access Control (Security):
+
+Global: Default IPv4 traffic is restricted to basic time exchange (restrict -4 default).
+
+Cluster Internal: Nodes on the 10.10.8.0/21 range are granted interrogation privileges to allow the Stargate Control Plane to audit clock health.
+
+Logging & Auditing:
+
+Statistics are captured daily in /var/log/ntpstats/.
+
+Key metrics tracked: loopstats (local clock stability), peerstats (upstream server health), and clockstats (hardware clock performance).
+
+Authentication: Authentication is explicitly disabled (disable auth) for local broadcast client operations to ensure high-speed, zero-latency handshakes within the trusted lab environment.
+
+3. Implementation: Actionable Configuration
+The ntpsec configuration is managed via Ansible to ensure consistency. To verify synchronization on any node (Skynet, Edge-T, or the Jetson Cluster), use the following procedure:
+
+Verification Command:
+
+Bash
+# Check the status of the sync with the lab authority
+ntpq -p
+Drift Monitoring:
+The system tracks frequency errors in /var/lib/ntp/ntp.drift. Significant changes in this file may indicate thermal issues on the Raspberry Pi 5 (Skynet) or Asus Tinker Edge T (Edge-T) affecting the crystal oscillator.
+
+Impact on the "Emerald Mirror" Pipeline
+With ntpsec broadcastclient active, the "Neural Data Vault" (registry.parquet) can now rely on extremely precise last_sync timestamps. When a player builds in the "AI Testing Field," the vision classification from Edge-T and the RCON injection from Stargate will be sequence-locked, preventing the "ghost building" errors common in high-latency distributed clusters.
+
+Admin Note: Now that the time sync layer is hardened with ntpsec, we can trust that our Pandas logs are chronologically perfect. Ready to proceed with the Vertex AI reasoning bridge integration?

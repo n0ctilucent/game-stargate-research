@@ -4,11 +4,13 @@ import logging
 import os
 import sys
 
-# Add the project root to sys.path for module imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+# Add the explicit project src root directory to sys.path dynamically
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
-from src.stargate.handlers.cart_handler import handle_cart_pass
-from src.stargate.internal.telemetry.validator import validate_telemetry_packet
+# Corrected layout reference blocks - mapping directly to handlers and internal
+from handlers.cart_handler import handle_cart_pass
+from internal.telemetry.validator import validate_telemetry_packet
 
 logger = logging.getLogger(__name__)
 
@@ -98,7 +100,7 @@ class TelemetryListener:
 
 if __name__ == "__main__":
     # Configure logging for standalone execution
-    from src.utils.config_utils import setup_logging
+    from utils.config_utils import setup_logging
     setup_logging("stargate_telemetry_listener")
     
     listener = TelemetryListener()

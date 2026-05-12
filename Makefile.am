@@ -21,6 +21,7 @@ python: $(VENV)/bin/activate
 
 test: python
 	@echo "==> Initiating Stargate Distributed Test Suite..."
-	$(PYTHON) -m pytest test/
+	@# Setting PYTHONPATH ensures 'internal' is found inside 'src/'
+	PYTHONPATH=src $(PYTHON) -m pytest test/
 
 .PHONY: python test

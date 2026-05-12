@@ -1,5 +1,5 @@
-from src.utils.config_utils import setup_logging
-from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+from utils.config_utils import setup_logging
+from rail.telemetry_receiver import RailTelemetryProcessor
 
 logger = setup_logging("stargate")
 
@@ -19,5 +19,8 @@ async def handle_cart_pass(payload):
     
     # Delegate the event processing to the RailTelemetryProcessor
     await rail_telemetry_processor.process_rail_event(payload)
+
+
+cess_rail_event(payload)
 
 
