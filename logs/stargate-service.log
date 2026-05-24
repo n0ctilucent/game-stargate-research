@@ -1,0 +1,3090 @@
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from src.utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'src.utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 1, in <module>
+    from utils.config_utils import setup_logging
+ModuleNotFoundError: No module named 'utils.config_utils'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from src.rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rail'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from src.rail.rail_manager import RailManager
+ModuleNotFoundError: No module named 'src'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 143
+    await rail_manager.main_loop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside function
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor # Import the new processor
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 2, in <module>
+    from rail.telemetry_receiver import RailTelemetryProcessor
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 5, in <module>
+    from rail.rail_manager import RailManager
+  File "/home/stargate/src/rail/rail_manager.py", line 5, in <module>
+    import rcon
+ModuleNotFoundError: No module named 'rcon'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 7, in <module>
+    rail_telemetry_processor = RailTelemetryProcessor()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stargate/src/rail/telemetry_receiver.py", line 14, in __init__
+    self.rail_manager = RailManager()
+                        ^^^^^^^^^^^^^
+TypeError: RailManager.__init__() missing 4 required positional arguments: 'rcon_host', 'rcon_port', 'registry_file', and 'markers_file'
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined
+INFO:telemetry_receiver:RailTelemetryProcessor initialized.
+Traceback (most recent call last):
+  File "/home/stargate/src/stargate-daemon.py", line 10, in <module>
+    from telemetry_listener import TelemetryListener
+  File "/home/stargate/src/telemetry_listener.py", line 12, in <module>
+    from handlers.cart_handler import handle_cart_pass
+  File "/home/stargate/src/handlers/cart_handler.py", line 24, in <module>
+    cess_rail_event(payload)
+    ^^^^^^^^^^^^^^^
+NameError: name 'cess_rail_event' is not defined

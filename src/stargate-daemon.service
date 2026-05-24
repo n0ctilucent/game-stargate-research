@@ -1,0 +1,17 @@
+t]
+Description="STARGATE: Skynet AI Agent & Telemetry Hub"
+After=network.target
+
+[Service]
+User=franklin
+WorkingDirectory=/home/stargate
+Environment="RCON_PASS=dinosaurExTraVaGanZa1969" "RCON_PORT=25575" "TELEMETRY_PORT=5005" "CHONK_IP=10.10.8.60"
+Environment="PYTHONPATH=/home/stargate:/home/stargate/src"
+ExecStart=/home/stargate/.venv/bin/python3 src/stargate-daemon.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/stargate/logs/stargate-service.log
+StandardError=append:/home/stargate/logs/stargate-service.log
+
+[Install]
+WantedBy=multi-user.target
