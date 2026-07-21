@@ -91,15 +91,14 @@ function main() {
     exit 1
   fi
 
-  log_info "Stargate Control Plane environment detected."
+  log_info "Stargate Control Plane environment detected." # what the hell is this
 
-  # 1. Hardware/Repo Hydration (The "Offsite" Paradigm)
-  hydrate_lfs
+  #hydrate_lfs # Hardware/Repo Hydration (The "Offsite" Paradigm)
 
   # 2. Registry Check
   init_registry
 
-  # 3. Autotools Bootstrap
+  # Autotools Bootstrap
   if [ ! -d "aclocal" ]; then mkdir -p aclocal; fi
 
   if [ ! -f "Makefile.in" ] && [ -f "./config.status" ]; then
