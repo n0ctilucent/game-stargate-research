@@ -5,7 +5,7 @@ import os
 import sys
 
 # Add the project root to sys.path for module imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from telemetry_listener import TelemetryListener
 from utils.config_utils import setup_logging
@@ -19,11 +19,13 @@ REMOTE_HOSTS = {
     "edge-t": "ws://tpu-host.local:8765",
 }
 
+
 async def dispatch_build_intent(host_key, intent_type, location, dimensions):
     """
     Sends a T2BM 'Intent' to a specific hardware host.
     """
     import websockets
+
     payload = {
         "protocol": "T2BM_V1",
         "intent": intent_type,
@@ -46,20 +48,22 @@ async def dispatch_build_intent(host_key, intent_type, location, dimensions):
     except Exception as e:
         logger.error(f"Failed to dispatch intent to {host_key}: {e}")
 
+
 async def main():
     # Environment variables for configuration
     telemetry_port = int(os.getenv("TELEMETRY_PORT", 5005))
-    
+
     logger.info("Initializing Stargate Daemon...")
-    
+
     # Initialize Telemetry Listener
     listener = TelemetryListener(port=telemetry_port)
-    
+
     # Start both the listener and any other background tasks
     await asyncio.gather(
         listener.start(),
         # We can add more async tasks here as needed
     )
+
 
 if __name__ == "__main__":
     try:

@@ -1,10 +1,8 @@
-# --- Python Virtual Environment Setup ---
 VENV = .venv
 VENV_BIN = $(VENV)/bin
 PYTHON = $(VENV_BIN)/python3
 PIP = $(VENV_BIN)/pip
 
-# Rule to create the venv and install dependencies from both files
 $(VENV)/bin/activate: requirements.txt test/requirements-test.txt
 	@echo "==> Hydrating Environment with Core and Test Dependencies..."
 	test -d $(VENV) || python3 -m venv $(VENV)
