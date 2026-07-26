@@ -94,12 +94,8 @@ function main() {
   log_info "Stargate Control Plane environment detected." # what the hell is this
 
   #hydrate_lfs # Hardware/Repo Hydration (The "Offsite" Paradigm)
-
-  # 2. Registry Check
   init_registry
-
-  # Autotools Bootstrap
-  if [ ! -d "aclocal" ]; then mkdir -p aclocal; fi
+  if [ ! -d "aclocal" ]; then mkdir -p aclocal; fi   # Autotools Bootstrap
 
   if [ ! -f "Makefile.in" ] && [ -f "./config.status" ]; then
     rm config.status
