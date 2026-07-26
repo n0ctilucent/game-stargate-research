@@ -1,29 +1,38 @@
 import asyncio
-from mcp.client import FastMCPClient   # adjust import for your client library
+from fastmcp import Client
+
+client = Client("http://178.62.60.55:8989/mcp")
 
 async def main():
-    client = FastMCPClient(
-        "stargate",
-        transport="tcp",
-        host="192.168.1.12",   # IP of the machine running the server
-        port=8989,
-        token="my-super-secret-token"
-    )
-    await client.connect()
+    async with client:
 
-    # 1️⃣ Fixed‑name version (no argument)
-    ctx = await client.call_resource("resource://context")
-    print("--- context.md ------------------------------------------------")
-    print(ctx)
+        tools = await client.list_tools()
+        print(tools)
+        print("\n")
 
-    # 2️⃣ Variable‑name version (pass filename as a parameter)
-    readme = await client.call_resource(
-        "resource://context",
-        args={"filename": "readme.md"}   # optional, defaults to context.md
-    )
-    print("--- readme.md -------------------------------------------------")
-    print(readme)
+        resources = await client.list_resources()
+        print(resources)
+        print("\n")
 
-    await client.close()
+        prompts = await client.list_prompts()
+        print(prompts)
+        print("\n")
 
+        try:
+            result = await client.call_tool("greet", {"name": "franklin"})
+            # print(result)
+            print("Tool succeeded:", result.data)
+        except ToolError as e:
+            print(f"Tool failed: {e}")
+
+        try:
+             content = await client.read_resource("file://README.md")
+             if hasattr(content[0], 'text'):
+                 print(content[0].text)
+
+             if hasattr(content[0], 'blob'):
+                 print(f"Binary data: {len(content[0].blob)} bytes")
+
+        except Exception as e:
+            print(e) 
 asyncio.run(main())

@@ -93,8 +93,6 @@ function main() {
 
   log_info "Stargate Control Plane environment detected."
 
-  # 1. Hardware/Repo Hydration (The "Offsite" Paradigm)
-  hydrate_lfs
 
   # 2. Registry Check
   init_registry
