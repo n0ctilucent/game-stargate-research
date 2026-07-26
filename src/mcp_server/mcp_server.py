@@ -1,23 +1,12 @@
 from mcp.server.fastmcp import FastMCP
 
-def auth_token(token: str) -> bool:
-    # In a real setup, check against a secret stored in env vars or a vault.
-    return token == "my‑super‑secret‑token"
-
 mcp = FastMCP("stargate", auth_callback=auth_token)
 
-@mcp.resource("resource://greeting")
-def get_greeting() -> str:
-    """Provides a simple greeting message."""
-    return "Hello from FastMCP Resources!"
+@mcp.tool
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
 
-@mcp.tool()
-async def get_system_load() -> str:
-    """Returns the current system load average."""
-    import os
-    return str(os.getloadavg())
-
-@mpeg.resource("resource://context")
+@mcp.resource("resource://context")
 def get_context(filename: str = "context.md") -> str:
     """
     Returns the contents of a markdown file.
