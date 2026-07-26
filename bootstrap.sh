@@ -94,7 +94,6 @@ function main() {
   log_info "Stargate Control Plane environment detected." # what the hell is this
 
   #hydrate_lfs # Hardware/Repo Hydration (The "Offsite" Paradigm)
-
   init_registry
   if [ ! -d "aclocal" ]; then mkdir -p aclocal; fi   # Autotools Bootstrap
 
