@@ -1,0 +1,23 @@
+┌─[franklin][stargate][±][20260726-03 {2} U:1 ✗][.../src/mcp_server]
+└─▪  systemctl status fastmcp.service 
+● fastmcp.service - FastMCP Service
+     Loaded: loaded (/etc/systemd/system/fastmcp.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-07-28 19:47:28 MDT; 3min 16s ago
+   Main PID: 797479 (python)
+      Tasks: 1 (limit: 9567)
+     Memory: 94.8M
+        CPU: 1.795s
+     CGroup: /system.slice/fastmcp.service
+             └─797479 /home/stargate/.venv/bin/python /home/stargate/src/mcp_server/mcp_server.py
+
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: │                      Run: pip install --upgrade fastmcp                      │
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: ╰──────────────────────────────────────────────────────────────────────────────╯
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: [07/28/26 19:47:30] INFO     Starting MCP server                transport.py:361
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]:                              'research.bitsmasher.net' with
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]:                              transport 'http' on
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]:                              http://0.0.0.0:8989/mcp
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: INFO:     Started server process [797479]
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: INFO:     Waiting for application startup.
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: INFO:     Application startup complete.
+Jul 28 19:47:30 stargate.research.bitsmasher.net python[797479]: INFO:     Uvicorn running on http://0.0.0.0:8989 (Press CTRL+C to quit)
+
