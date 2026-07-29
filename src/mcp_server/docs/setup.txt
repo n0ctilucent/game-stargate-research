@@ -1,0 +1,21 @@
+# (optional) purge old install
+sudo systemctl stop openclaw.service
+sudo apt-get purge -y openclaw
+rm -rf ~/.openclaw
+
+# Add repo & key
+sudo apt-get install -y ca-certificates gnupg wget
+wget -qO - https://repo.openclaw.dev/openclaw.gpg | sudo gpg --dearmor -o /usr/share/keyrings/openclaw-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/openclaw-archive-keyring.gpg] https://repo.openclaw.dev/debian stable main" | \
+    sudo tee /etc/apt/sources.list.d/openclaw.list
+
+# Install
+sudo apt-get update
+sudo apt-get install -y openclaw
+
+# Enable service
+sudo systemctl enable --now openclaw.service
+
+# Verify
+openclaw doctor
+type -a openclaw

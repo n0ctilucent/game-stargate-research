@@ -1,0 +1,20 @@
+[Unit]
+Description=Ollama AI daemon
+After=network.target
+
+[Service]
+Type=simple
+User=ollama
+Group=ollama
+ExecStart=/usr/local/bin/ollama serve
+Restart=on-failure
+RestartSec=5
+LimitNOFILE=65536
+Environment="OLLAMA_HOME=/var/lib/ollama"
+Environment="OLLAMA_MODELS=/var/lib/ollama/models"
+Environment="OLLAMA_HOST=0.0.0.0:11434"
+Environment="OLLAMA_ORIGINS=*"
+WorkingDirectory=/var/lib/ollama
+
+[Install]
+WantedBy=multi-user.target
