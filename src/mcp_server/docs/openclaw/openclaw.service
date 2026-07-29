@@ -1,0 +1,14 @@
+[Unit]
+Description=OpenClaw service
+After=network.target
+
+[Service]
+Environment=OPENCLAW_TMPDIR=/var/run/openclaw
+User=openclaw
+Group=openclaw
+ExecStart=/usr/bin/openclaw --config /home/openclaw/openclaw.json
+Restart=on-failure
+WorkingDirectory=/home/openclaw/workspace
+
+[Install]
+WantedBy=multi-user.target

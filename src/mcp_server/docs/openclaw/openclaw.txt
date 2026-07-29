@@ -1,0 +1,32 @@
+openclaw agents list
+
+ollama pull qwen3.6-coder:14b
+ollama pull deepseek-r1:14b
+OLLAMA_CONTEXT_LENGTH=64000 ollama launch openclaw
+
+## coding agent
+
+Every agent needs a home. Create a folder for it:
+
+mkdir ~/.openclaw/workspace-coding
+Name it whatever makes sense. I use workspace-<purpose> because six months from now you won't remember what workspace-alpha-v2 was for.
+
+Inside this folder, OpenClaw looks for specific files. Here's what each one does:
+
+AGENTS.md is the operating manual. Rules, priorities, how to behave. Gets loaded at the start of every session.
+
+This is where you put "never share code outside this chat" or "always respond in English."
+
+SOUL.md is the personality. Tone, boundaries, deep behavioral traits. I'll go deep on this one in the next section because it's the file everyone gets wrong.
+
+IDENTITY.md holds the agent's name, vibe, and emoji. Gets created during the bootstrap ritual when you first initialize the agent. Cosmetic but useful when you're juggling multiple agents in logs.
+
+USER.md stores what the agent knows about you. Your preferences, your style, context that carries across sessions.
+
+TOOLS.md defines which tools and skills the agent can access. A coding agent might get GitHub integration through MCP servers. A personal agent doesn't need that.
+
+HEARTBEAT.md sets up recurring background tasks. Optional. Only enable this if the agent needs to do something on a schedule, like checking for new emails every hour.
+
+Now here's where people go wrong. They create the folder, dump all six files in there, and spend hours writing each one. Don't.
+
+AGENTS.md and SOUL.md are the two that actually matter at the start. The rest are nice-to-have. Get those two right first, add the others later.
