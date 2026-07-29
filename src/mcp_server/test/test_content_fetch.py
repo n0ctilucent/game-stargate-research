@@ -2,7 +2,7 @@ import asyncio
 from fastmcp import Client
 from fastmcp.exceptions import ToolError  # Fixed: Imported ToolError
 
-client = Client("http://178.62.60.55:8989/mcp")
+client = Client("http://10.10.16.66:8989/mcp")
 
 async def main():
     async with client:
