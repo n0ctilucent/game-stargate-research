@@ -8,6 +8,7 @@ $(VENV)/bin/activate: requirements.txt test/requirements-test.txt
 	test -d $(VENV) || python3 -m venv $(VENV)
 	$(PIP) install --upgrade pip
 	$(PIP) install -r requirements.txt
+	$(PIP) install -r src/mcp_server/requirements.txt
 	@if [ -f "test/requirements-test.txt" ]; then \
 		echo "==> Installing Test Dependencies..."; \
 		$(PIP) install -r test/requirements-test.txt; \

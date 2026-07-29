@@ -1,8 +1,10 @@
 import asyncio
+
 from fastmcp import Client
 from fastmcp.exceptions import ToolError  # Fixed: Imported ToolError
 
-client = Client("http://178.62.60.55:8989/mcp")
+client = Client("http://10.10.16.66:8989/mcp")
+
 
 async def main():
     async with client:
@@ -35,19 +37,20 @@ async def main():
         print("\n=== Reading Resource 'file://README.md' ===")
         try:
             content = await client.read_resource("file://README.md")
-            
+
             # Handle list vs single object responses
             items = content if isinstance(content, list) else [content]
             for item in items:
-                if hasattr(item, 'text') and item.text:
+                if hasattr(item, "text") and item.text:
                     print("Text Content:\n", item.text)
-                elif hasattr(item, 'blob') and item.blob:
+                elif hasattr(item, "blob") and item.blob:
                     print(f"Binary data: {len(item.blob)} bytes")
                 else:
                     print("Raw Content:", item)
 
         except Exception as e:
             print(f"Resource fetch failed: {e}")
+
 
 if __name__ == "__main__":
     # Fixed: Calling main() instead of undefined call_tool()

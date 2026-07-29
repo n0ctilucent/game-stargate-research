@@ -1,4 +1,4 @@
 pandas
 pyarrow
 networkx
-google-cloud-aiplatform
+# google-cloud-aiplatform

@@ -1,5 +1,0 @@
-pytest
-fastmcp
-black
-isort
-fastmcp
