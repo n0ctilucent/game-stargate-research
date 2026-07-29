@@ -50,4 +50,5 @@ async def main():
             print(f"Resource fetch failed: {e}")
 
 if __name__ == "__main__":
+    # Fixed: Calling main() instead of undefined call_tool()
     asyncio.run(main())
