@@ -1,0 +1,11 @@
+[Unit]
+Description=FastMCP Service
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/python3 /home/stargate/src/mcp_server/mcp_server.py
+Restart=always
+Environment=FASTMCP_TRANSPORT=http
+Environment=FASTMCP_HOST=0.0.0.0
+Environment=FASTMCP_PORT=8989
