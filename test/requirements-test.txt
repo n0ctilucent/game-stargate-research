@@ -1,5 +1,5 @@
 pytest
+cryptography<45,>=41.0.5
 fastmcp
 black
 isort
-fastmcp

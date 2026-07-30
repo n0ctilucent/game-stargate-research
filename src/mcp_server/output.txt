@@ -162,3 +162,128 @@ def get_dreamland_pdf() -> Response:
 This way, when you access your FastMCP server and request the `dreamland.pdf` resource, it will serve the contents of that file.
 
 Remember to update your systemd service file (if you have one) to reflect any changes you make to your Python code.
+
+$ pwd && python3 test/test_content_fetch.py 
+/home/franklin/workspace/gaming/game-stargate-research
+=== Tools ===
+[Tool(name='greet', title=None, description=None, inputSchema={'additionalProperties': False, 'properties': {'name': {'type': 'string'}}, 'required': ['name'], 'type': 'object'}, outputSchema={'properties': {'result': {'type': 'string'}}, 'required': ['result'], 'type': 'object', 'x-fastmcp-wrap-result': True}, icons=None, annotations=None, meta={'fastmcp': {'tags': []}}, execution=None)]
+
+
+=== Resources ===
+[Resource(name='get_dreamland_pdf', title=None, uri=AnyUrl('file://dreamland.pdf/'), description='Returns the content of the specified PDF file.', mimeType='text/plain', size=None, icons=None, annotations=None, meta={'fastmcp': {'tags': []}}), Resource(name='get_file_content', title=None, uri=AnyUrl('file://readme.md/'), description='Returns the content of the specified file.', mimeType='text/plain', size=None, icons=None, annotations=None, meta={'fastmcp': {'tags': []}})]
+
+
+=== Prompts ===
+[]
+
+
+=== Executing Tool 'greet' ===
+Tool succeeded: Hello, franklin!
+
+=== Reading Resource 'file://README.md' ===
+Text Content:
+ # FastMCP Server
+
+Fast Micro-Controller Protocol (FastMCP) is a Python library that enables communication between microcontrollers and external devices. This repository contains the code for a FastMCP server.
+
+## Tools
+
+* : A simple tool that takes a name as input and returns a greeting message.
+* : A resource that reads the contents of a file named "README.md" and returns it.
+
+## Resources
+
+* : Returns the content of this README file.
+
+(.venv) franklin@chonk:~/workspace/gaming/game-stargate-research/src/mcp_server$ cat output.txt cat ../../test/test_content_fetch.py | ollama run llama3 "My MCP server is running. How do I tell you (ollama) to pull the PDF file as part of our sessions"
+cat: cat: No such file or directory
+To serve the `dreamland.pdf` file from your FastMCP server, you'll need to add a new resource method in your `mcp_server.py` file. Here's an example of how you can do it:
+```python
+from fastmcp.resources import FileResource
+from fastmcp.response import Response
+
+@mcp.resource("file://dreamland.pdf")
+def get_dreamland_pdf() -> Response:
+    """Returns the content of the specified PDF file."""
+    with open("docs/minecraft/dreamland.pdf", "rb") as file:
+        return Response(file.read(), mimetype="application/pdf")
+```
+This code defines a new resource method called `get_dreamland_pdf` that serves the contents of the `dreamland.pdf` file from your `docs/minecraft/` directory. The `Response` object is used to wrap the PDF 
+data with a proper MIME type (`application/pdf`) and other metadata.
+
+You can also add a description or other metadata to this resource using the `@mcp.resource_description` decorator, like so:
+```python
+@mcp.resource("file://dreamland.pdf")
+@mcp.resource_description("Dreamland PDF File")
+def get_dreamland_pdf() -> Response:
+    """Returns the content of the specified PDF file."""
+    with open("docs/minecraft/dreamland.pdf", "rb") as file:
+        return Response(file.read(), mimetype="application/pdf")
+```
+This way, when you access your FastMCP server and request the `dreamland.pdf` resource, it will serve the contents of that file.
+
+Now, to tell ollama (the AI assistant) to pull the PDF file as part of our session, you can use the following command:
+```bash
+ollama run llama3 "pull dreamland.pdf"
+```
+This command tells ollama to fetch the `dreamland.pdf` resource from your FastMCP server and display it in the current session.
+
+Remember to update your systemd service file (if you have one) to reflect any changes you make to your Python code.
+
+└─▪  python3 mcp_server.py 
+Traceback (most recent call last):
+  File "/home/stargate/src/mcp_server/mcp_server.py", line 14, in <module>
+    @mcp.resource_description("Dreamland PDF File")
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FastMCP' object has no attribute 'resource_description'
+
+
+└─▪  python3 mcp_server.py 
+Traceback (most recent call last):
+  File "/home/stargate/src/mcp_server/mcp_server.py", line 15, in <module>
+    def get_dreamland_pdf() -> Response:
+                               ^^^^^^^^
+NameError: name 'Response' is not defined
+
+┌─(.venv)[franklin][stargate][±][main {3} U:1 ✗][.../src/mcp_server]
+└─▪  python3 mcp_server.py 
+Traceback (most recent call last):
+  File "/home/stargate/src/mcp_server/mcp_server.py", line 4, in <module>
+    from fastmcp.response import Response
+ModuleNotFoundError: No module named 'fastmcp.response'
+
+┌─(.venv)[franklin][stargate][±][main {3} U:1 ✗][.../src/mcp_server]
+└─▪  cat mcp_server.py 
+from pathlib import Path
+from fastmcp import FastMCP
+from fastmcp.resources import FileResource
+from fastmcp.response import Response
+
+mcp = FastMCP("research.bitsmasher.net")
+
+#@mcp.resource("file://dreamland.pdf")
+#def get_dreamland_pdf() -> str:
+#    """Returns the content of the specified PDF file."""
+#    with open("docs/minecraft/dreamland.pdf", "rb") as file:
+#        return Response(file.read(), mimetype="application/pdf")
+
+@mcp.resource("file://dreamland.pdf")
+# @mcp.resource_description("Dreamland PDF File")
+def get_dreamland_pdf() -> Response:
+    """Returns the content of the specified PDF file."""
+    with open("docs/minecraft/dreamland.pdf", "rb") as file:
+        return Response(file.read(), mimetype="application/pdf", headers={"Content-Disposition": "attachment; filename=dreamland.pdf"})
+
+@mcp.tool
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+@mcp.resource("file://README.md")
+def get_file_content() -> str:
+    """Returns the content of the specified file."""
+    with open("README.md", "r") as file:
+        return file.read()
+
+if __name__ == "__main__":
+    mcp.run(transport="http", host="0.0.0.0", port=8989)
+
