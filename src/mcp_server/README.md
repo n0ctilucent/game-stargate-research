@@ -1,4 +1,4 @@
-esearch Portal FastMCP Server
+# Research Portal FastMCP Server
 
 Fast Micro-Controller Protocol (FastMCP) server running on `stargate.research.bitsmasher.net:8989`. 
 Acts as the central control plane and MCP bridge for cluster database operations, local documentation retrieval, and cloud training pipelines.

@@ -1,4 +1,4 @@
-mport time
+import time
 from skynet_core import Config  # Infrastructure constants
 
 from mcrcon import MCRcon

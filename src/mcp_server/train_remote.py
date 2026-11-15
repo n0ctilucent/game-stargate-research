@@ -1,6 +1,3 @@
-"""
-Remote Fine-Tuning Script executed inside Vertex AI Container.
-"""
 import argparse
 import os
 import torch
@@ -10,34 +7,34 @@ from peft import LoraConfig
 from trl import SFTTrainer
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Vertex AI Fine-Tuning Task")
-    parser.add_argument("--model_id", type=str, default="google/gemma-2b", help="Base model checkpoint")
-    parser.add_argument("--data_path", type=str, required=True, help="GCS URI or local path to tokenized dataset")
-    parser.add_argument("--output_dir", type=str, default=os.getenv("AIP_MODEL_DIR", "/tmp/output"), help="Output directory for model artifacts")
-    parser.add_argument("--epochs", type=int, default=3, help="Number of training epochs")
-    parser.add_argument("--batch_size", type=int, default=4, help="Per-device batch size")
-    parser.add_argument("--lr", type=float, default=2e-4, help="Learning rate")
+    parser = argparse.ArgumentParser(description="Vertex AI Gemma-2B LoRA Training")
+    parser.add_argument("--model_id", type=str, default="google/gemma-2-2b")
+    parser.add_argument("--data_path", type=str, required=True)
+    parser.add_argument("--output_dir", type=str, default=os.getenv("AIP_MODEL_DIR", "/tmp/model_output"))
+    parser.add_argument("--epochs", type=int, default=3)
+    parser.add_argument("--batch_size", type=int, default=2)
+    parser.add_argument("--lr", type=float, default=2e-4)
     return parser.parse_args()
 
 def main():
     args = parse_args()
-    print(f"=== Starting Vertex AI Training Job ===")
-    print(f"Base Model: {args.model_id}")
-    print(f"Dataset Path: {args.data_path}")
-    print(f"Output Target: {args.output_dir}")
+    print("=== Starting Fine-Tuning Job ===")
+    print(f"Target Model: {args.model_id}")
+    print(f"Data Source: {args.data_path}")
+    print(f"Output Path: {args.output_dir}")
 
-    # 1. Load Tokenizer & Model
-    tokenizer = AutoTokenizer.from_pretrained(args.model_id)
+    token = os.getenv("HF_TOKEN")
+    tokenizer = AutoTokenizer.from_pretrained(args.model_id, token=token)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
     model = AutoModelForCausalLM.from_pretrained(
         args.model_id,
+        token=token,
         torch_dtype=torch.bfloat16,
         device_map="auto"
     )
 
-    # 2. Configure LoRA (Adapters keep training efficient)
     peft_config = LoraConfig(
         r=16,
         lora_alpha=32,
@@ -47,23 +44,20 @@ def main():
         target_modules=["q_proj", "k_proj", "v_proj", "o_proj"]
     )
 
-    # 3. Load Tokenized Dataset from GCS
     dataset = load_dataset("json", data_files={"train": args.data_path})
 
-    # 4. Training Hyperparameters
     training_args = TrainingArguments(
         output_dir=args.output_dir,
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
-        gradient_accumulation_steps=2,
+        gradient_accumulation_steps=4,
         learning_rate=args.lr,
-        logging_steps=10,
-        bf16=True,  # Optimal precision for NVIDIA L4 GPUs
+        logging_steps=5,
+        bf16=True,
         save_strategy="epoch",
         report_to="none"
     )
 
-    # 5. Execute Training
     trainer = SFTTrainer(
         model=model,
         train_dataset=dataset["train"],
@@ -74,13 +68,13 @@ def main():
         args=training_args,
     )
 
+    print("Executing training loop...")
     trainer.train()
 
-    # 6. Save Adapter Weights
-    print(f"Saving fine-tuned LoRA adapters to {args.output_dir}")
+    print(f"Saving fine-tuned adapters to {args.output_dir}")
     trainer.model.save_pretrained(args.output_dir)
     tokenizer.save_pretrained(args.output_dir)
-    print("=== Training Complete ===")
+    print("=== Training Successfully Completed ===")
 
 if __name__ == "__main__":
     main()

@@ -21,6 +21,3 @@ async def handle_cart_pass(payload):
     await rail_telemetry_processor.process_rail_event(payload)
 
 
-cess_rail_event(payload)
-
-

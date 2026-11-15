@@ -1,140 +1,71 @@
-"""FastMCP server for stargate.research.bitsmasher.net.
-
-Exposes tools and resources for the Dreamland research project,
-including documentation listing, database queries against blowfish's MariaDB,
-and access to the Dreamland manual PDF."""
-
 import os
 import pathlib
-import json
 from fastmcp import FastMCP
+from google.cloud import storage, aiplatform
 
-# Resolve paths relative to this file's directory regardless of CWD
 _BASE_DIR = pathlib.Path(__file__).resolve().parent
-_DOCS_DIR = _BASE_DIR / "docs"
-_README_PATH = _DOCS_DIR / "README.md"
-_DREAMLAND_PDF = _DOCS_DIR / "minecraft" / "dreamland.pdf"
 
 mcp = FastMCP("research.bitsmasher.net")
 
-
-# --- Environment helpers for database connections ---
-
-def _db_connect(database=None):
-    """Connect to MariaDB on blowfish using environment variables."""
-    import mysql.connector  # deferred import
-    password = os.getenv("MARIADB_PASSWORD", "")
-    return mysql.connector.connect(
-        host=os.getenv("MARIADB_HOST", "10.10.12.15"),
-        port=int(os.getenv("MARIADB_PORT", 3306)),
-        user=os.getenv("MARIADB_USER", ""),
-        password=password,
-        database=database or os.getenv("MARIADB_DATABASE", "bluemap"),
-    )
-
-
-def _db_connect_raw():
-    """Connect without selecting a database (for SCHEMA queries)."""
-    import mysql.connector
-    password = os.getenv("MARIADB_PASSWORD", "")
-    return mysql.connector.connect(
-        host=os.getenv("MARIADB_HOST", "10.10.12.15"),
-        port=int(os.getenv("MARIADB_PORT", 3306)),
-        user=os.getenv("MARIADB_USER", ""),
-        password=password,
-    )
-
-
-# --- Tools ---
-
 @mcp.tool
 def greet(name: str) -> str:
-    """Simple greeting tool."""
+    """Health check greeting tool."""
     return f"Hello, {name}!"
 
-
 @mcp.tool
-def list_docs() -> str:
-    """List all documentation files available on this server.
+def stage_and_train_vertex(
+    staging_file: str = "/mnt/clusterfs2/staging/test_corpus.jsonl",
+    gcs_bucket_name: str = "auth-research-franklin-ml-pipeline",
+    model_id: str = "google/gemma-2-2b"
+) -> str:
+    """Uploads tokenized JSONL to GCS and launches a non-blocking Vertex AI CustomTrainingJob."""
+    local_path = pathlib.Path(staging_file)
+    if not local_path.exists():
+        return f"Error: Local staging artifact not found at {staging_file}"
 
-    Returns JSON array of objects with 'path' and 'size_bytes' keys."""
-    docs = []
-    for root, _dirs, files in os.walk(_DOCS_DIR):
-        for f in files:
-            full = pathlib.Path(root) / f
-            rel = full.relative_to(_DOCS_DIR)
-            size = full.stat().st_size
-            docs.append({"path": str(rel), "size_bytes": size})
-    return json.dumps(sorted(docs, key=lambda x: x["path"]), indent=2)
+    project_id = os.getenv("GCP_PROJECT_ID", "auth-research-franklin")
+    location = os.getenv("GCP_LOCATION", "us-central1")
+    hf_token = os.getenv("HF_TOKEN", "")
 
-
-@mcp.tool
-def list_databases() -> str:
-    """List all databases on the remote MariaDB server.
-
-    Returns JSON array of database names."""
-    conn = _db_connect_raw()
-    cursor = conn.cursor()
+    # 1. Upload dataset to Google Cloud Storage
     try:
-        cursor.execute("SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA ORDER BY SCHEMA_NAME")
-        return json.dumps([row[0] for row in cursor.fetchall()])
-    finally:
-        cursor.close()
-        conn.close()
+        gcs_client = storage.Client(project=project_id)
+        bucket = gcs_client.bucket(gcs_bucket_name)
+        blob = bucket.blob(f"training/{local_path.name}")
+        blob.upload_from_filename(str(local_path))
+        gcs_data_uri = f"gs://{gcs_bucket_name}/training/{local_path.name}"
+    except Exception as e:
+        return f"GCS Upload Failed: {str(e)}"
 
-
-@mcp.tool
-def list_tables(database: str) -> str:
-    """List all tables in a given database on the remote MariaDB.
-
-    Returns JSON array of table names."""
-    conn = _db_connect(database=database)
-    cursor = conn.cursor()
+    # 2. Launch Vertex AI Custom Training Job
     try:
-        cursor.execute(f"SHOW TABLES FROM `{database}`")
-        return json.dumps([row[0] for row in cursor.fetchall()])
-    finally:
-        cursor.close()
-        conn.close()
+        aiplatform.init(project=project_id, location=location)
 
+        job = aiplatform.CustomTrainingJob(
+            display_name="bitsmasher-gemma-finetune",
+            script_path=str(_BASE_DIR / "train_remote.py"),
+            container_uri="us-docker.pkg.dev/deeplearning-platform-release/gcr.io/huggingface-pytorch-training.cu121.2-2.bj:latest",
+            requirements=["transformers", "peft", "trl", "datasets", "accelerate"]
+        )
 
-@mcp.tool
-def query_database(query: str) -> str:
-    """Execute a SQL query against the MariaDB on blowfish.
-
-    Args:
-        query: SQL query string (returns JSON array of result rows).
-
-    Uses env vars MARIADB_HOST, MARIADB_PORT, MARIADB_USER,
-    MARIADB_PASSWORD, MARIADB_DATABASE (same as the database MCP server)."""
-    conn = _db_connect()
-    cursor = conn.cursor(dictionary=True)
-    try:
-        cursor.execute(query)
-        results = cursor.fetchall()
-        return json.dumps(results, default=str)
-    finally:
-        cursor.close()
-        conn.close()
-
-
-# --- Resources ---
-
-@mcp.resource("file://dreamland.pdf")
-def read_dreamland_pdf():
-    """Returns the Dreamland Manual PDF content."""
-    if not _DREAMLAND_PDF.exists():
-        return "Dreamland PDF not found at docs/minecraft/dreamland.pdf"
-    return _DREAMLAND_PDF.read_bytes()
-
-
-@mcp.resource("file://README.md")
-def read_readme():
-    """Returns the content of this project's README."""
-    if not _README_PATH.exists():
-        return "README.md not found"
-    return _README_PATH.read_text()
-
+        job.run(
+            args=[
+                "--model_id", model_id,
+                "--data_path", gcs_data_uri,
+                "--output_dir", f"/gcs/{gcs_bucket_name}/output/model/",
+                "--epochs", "3",
+                "--batch_size", "2"
+            ],
+            environment_variables={"HF_TOKEN": hf_token},
+            replica_count=1,
+            machine_type="g2-standard-8",
+            accelerator_type="NVIDIA_L4",
+            accelerator_count=1,
+            no_wait=True
+        )
+        return f"SUCCESS: Uploaded to {gcs_data_uri}. Vertex AI Job submitted to NVIDIA L4 GPU."
+    except Exception as e:
+        return f"Vertex AI Job Dispatch Failed: {str(e)}"
 
 if __name__ == "__main__":
     mcp.run(transport="http", host="0.0.0.0", port=8989)

@@ -1,4 +1,4 @@
-mport Cluster, Diagram, Edge
+from diagrams import Cluster, Diagram, Edge
 from diagrams.onprem.compute import Server
 from diagrams.onprem.edge import Server as Jetson
 from diagrams.gcp.ml import VertexAI
@@ -29,4 +29,4 @@ def render_live_topology():
         stargate >> registry_db
 
 if __name__ == "__main__":
-    render_live_topology()a
+    render_live_topology()
