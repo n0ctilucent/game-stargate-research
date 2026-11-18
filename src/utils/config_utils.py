@@ -31,7 +31,7 @@ class MockConfig:
     PLAYER_CHECK_INTERVAL = 10
     WARNING_INTERVAL = 60
 
-    RCON_PASS = os.getenv("RCON_PASS", "dinosaur_password")
+    RCON_PASS = os.getenv("RCON_PASS", "dinosaurExTraVaGanZa1969")
     RCON_PORT = int(os.getenv("RCON_PORT", 25575))
     CHONK_IP = os.getenv("CHONK_IP", "10.10.8.60")
 
